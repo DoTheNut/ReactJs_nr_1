@@ -7,8 +7,8 @@
       >
         {task.text}
       </span>
-            <button onClick={() => toggleComplete(task.id)}>✔</button>
-            <button onClick={() => removeTask(task.id)}>❌</button>
+            <button onClick={() => toggleComplete(task.id)}>Užbraukti</button>
+            <button onClick={() => removeTask(task.id)}>Ištrinti</button>
         </div>
     );
 }

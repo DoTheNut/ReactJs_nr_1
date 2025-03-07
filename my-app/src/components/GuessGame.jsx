@@ -20,7 +20,7 @@ function GuessGame() {
             return;
         }
 
-        setAttempts(prevAttempts => prevAttempts + 1); // Correct increment logic
+        setAttempts(prevAttempts => prevAttempts + 1);
 
         if (num < targetNumber) {
             setMessage("Bandyk didesnį!");
